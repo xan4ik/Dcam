@@ -1,0 +1,6 @@
+C:\Users\Stack\Desktop\librealsense-master\build\Debug\Intel.RealSensed.dll
+C:\Users\Stack\Desktop\librealsense-master\build\Debug\Intel.RealSensed.pdb
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\Intel.RealSense\obj\x64\Debug\Intel.RealSense.csprojAssemblyReference.cache
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\Intel.RealSense\obj\x64\Debug\Intel.RealSense.csproj.CoreCompileInputs.cache
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\Intel.RealSense\obj\x64\Debug\Intel.RealSensed.dll
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\Intel.RealSense\obj\x64\Debug\Intel.RealSensed.pdb

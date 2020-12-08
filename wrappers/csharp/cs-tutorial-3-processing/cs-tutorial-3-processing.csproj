@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2122A689-16FD-31D6-8E6A-F655767EEE92}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>cs-tutorial-3-processing</ProjectName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <OutputPath>C:\Users\Stack\Desktop\librealsense-master\build\Debug\</OutputPath>
+    <PlatformToolset>v142</PlatformToolset>
+    <AssemblyName>cs-tutorial-3-processing</AssemblyName>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\Stack\Desktop\librealsense-master\build\Debug\cs-tutorial-3-processing.exe</StartProgram>
+    <DebugType>full</DebugType>
+    <DefineConstants>DEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <LangVersion>6</LangVersion>
+    <Optimize>false</Optimize>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <OutputPath>C:\Users\Stack\Desktop\librealsense-master\build\Release\</OutputPath>
+    <PlatformToolset>v142</PlatformToolset>
+    <AssemblyName>cs-tutorial-3-processing</AssemblyName>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\Stack\Desktop\librealsense-master\build\Release\cs-tutorial-3-processing.exe</StartProgram>
+    <DebugType>none</DebugType>
+    <DefineConstants>_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS</DefineConstants>
+    <ErrorReport>queue</ErrorReport>
+    <LangVersion>6</LangVersion>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <OutputPath>C:\Users\Stack\Desktop\librealsense-master\build\MinSizeRel\</OutputPath>
+    <PlatformToolset>v142</PlatformToolset>
+    <AssemblyName>cs-tutorial-3-processing</AssemblyName>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\Stack\Desktop\librealsense-master\build\MinSizeRel\cs-tutorial-3-processing.exe</StartProgram>
+    <DebugType>none</DebugType>
+    <DefineConstants>_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS</DefineConstants>
+    <LangVersion>6</LangVersion>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <OutputPath>C:\Users\Stack\Desktop\librealsense-master\build\RelWithDebInfo\</OutputPath>
+    <PlatformToolset>v142</PlatformToolset>
+    <AssemblyName>cs-tutorial-3-processing</AssemblyName>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\Stack\Desktop\librealsense-master\build\RelWithDebInfo\cs-tutorial-3-processing.exe</StartProgram>
+    <DebugType>full</DebugType>
+    <DefineConstants>_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS</DefineConstants>
+    <LangVersion>6</LangVersion>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.CSharp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.CSharp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemGroup>
+    <None Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\cs-tutorial-3-processing\CMakeLists.txt">
+      <Link>CMakeLists.txt</Link>
+    </None>
+  </ItemGroup>
+  <Target Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"
+    Name="CustomCommand_Debug_18cc22d1b98f4a065efae8a6f26fdb0d"
+    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-3-processing/CMakeLists.txt"
+    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-3-processing/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-3-processing/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+  </Target>
+  <Target Condition="'$(Configuration)|$(Platform)'=='Release|x64'"
+    Name="CustomCommand_Release_18cc22d1b98f4a065efae8a6f26fdb0d"
+    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-3-processing/CMakeLists.txt"
+    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-3-processing/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-3-processing/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+  </Target>
+  <Target Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"
+    Name="CustomCommand_MinSizeRel_18cc22d1b98f4a065efae8a6f26fdb0d"
+    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-3-processing/CMakeLists.txt"
+    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-3-processing/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-3-processing/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+  </Target>
+  <Target Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"
+    Name="CustomCommand_RelWithDebInfo_18cc22d1b98f4a065efae8a6f26fdb0d"
+    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-3-processing/CMakeLists.txt"
+    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-3-processing/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-3-processing/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+  </Target>
+  <ItemGroup>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\cs-tutorial-3-processing\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\cs-tutorial-3-processing\Window.xaml.cs">
+      <Link>Window.xaml.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\cs-tutorial-3-processing\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\cs-tutorial-3-processing\Window.xaml">
+      <Link>Window.xaml</Link>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Stack\Desktop\librealsense-master\build\ZERO_CHECK.vcxproj">
+      <Project>{D104EF1B-85AE-30B4-9DA9-57B417620565}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\Intel.RealSense\Intel.RealSense.csproj">
+      <Project>{A694D161-49BA-3547-9D06-05E034C76DBF}</Project>
+      <Name>Intel.RealSense</Name>
+      <SkipGetTargetFrameworkProperties>true</SkipGetTargetFrameworkProperties>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'MinSizeRel'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'RelWithDebInfo'">
+  </PropertyGroup>
+  <PropertyGroup>
+    <BuildDependsOn>
+      CustomCommand_Debug_18cc22d1b98f4a065efae8a6f26fdb0d;
+      CustomCommand_MinSizeRel_18cc22d1b98f4a065efae8a6f26fdb0d;
+      CustomCommand_RelWithDebInfo_18cc22d1b98f4a065efae8a6f26fdb0d;
+      CustomCommand_Release_18cc22d1b98f4a065efae8a6f26fdb0d;
+      $(BuildDependsOn)
+</BuildDependsOn>
+  </PropertyGroup>
+</Project>

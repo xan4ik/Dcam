@@ -1,0 +1,12 @@
+C:\Users\Stack\Desktop\librealsense-master\build\Debug\cs-tutorial-3-processing.exe
+C:\Users\Stack\Desktop\librealsense-master\build\Debug\cs-tutorial-3-processing.pdb
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\obj\x64\Debug\cs-tutorial-3-processing.csprojAssemblyReference.cache
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\obj\x64\Debug\Window.g.cs
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\obj\x64\Debug\cs-tutorial-3-processing_MarkupCompile.cache
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\obj\x64\Debug\cs-tutorial-3-processing_MarkupCompile.lref
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\obj\x64\Debug\Window.baml
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\obj\x64\Debug\cs-tutorial-3-processing.g.resources
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\obj\x64\Debug\cs-tutorial-3-processing.csproj.CoreCompileInputs.cache
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\obj\x64\Debug\cs-tutorial-3-processing.csproj.CopyComplete
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\obj\x64\Debug\cs-tutorial-3-processing.exe
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-3-processing\obj\x64\Debug\cs-tutorial-3-processing.pdb

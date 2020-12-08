@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/Base/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/Devices/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/Frames/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/Helpers/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/Options/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/Pipeline/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/Processing/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/Sensors/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/StreamProfiles/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/Types/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/Types/Enums/CMakeLists.txt
+C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/Types/Math/CMakeLists.txt

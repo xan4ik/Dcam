@@ -1,0 +1,12 @@
+C:\Users\Stack\Desktop\librealsense-master\build\Debug\cs-tutorial-4-software-dev.exe
+C:\Users\Stack\Desktop\librealsense-master\build\Debug\cs-tutorial-4-software-dev.pdb
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-4-software-dev\obj\x64\Debug\cs-tutorial-4-software-dev.csprojAssemblyReference.cache
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-4-software-dev\obj\x64\Debug\Window.g.cs
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-4-software-dev\obj\x64\Debug\cs-tutorial-4-software-dev_MarkupCompile.cache
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-4-software-dev\obj\x64\Debug\cs-tutorial-4-software-dev_MarkupCompile.lref
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-4-software-dev\obj\x64\Debug\Window.baml
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-4-software-dev\obj\x64\Debug\cs-tutorial-4-software-dev.g.resources
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-4-software-dev\obj\x64\Debug\cs-tutorial-4-software-dev.csproj.CoreCompileInputs.cache
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-4-software-dev\obj\x64\Debug\cs-tutorial-4-software-dev.csproj.CopyComplete
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-4-software-dev\obj\x64\Debug\cs-tutorial-4-software-dev.exe
+C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-4-software-dev\obj\x64\Debug\cs-tutorial-4-software-dev.pdb

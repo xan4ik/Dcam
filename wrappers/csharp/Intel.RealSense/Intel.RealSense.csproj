@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A694D161-49BA-3547-9D06-05E034C76DBF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Intel.RealSense</ProjectName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <OutputPath>C:\Users\Stack\Desktop\librealsense-master\build\Debug\</OutputPath>
+    <PlatformToolset>v142</PlatformToolset>
+    <AssemblyName>Intel.RealSensed</AssemblyName>
+    <DebugType>full</DebugType>
+    <DefineConstants>DEBUG;Windows;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <LangVersion>6</LangVersion>
+    <Optimize>false</Optimize>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <OutputPath>C:\Users\Stack\Desktop\librealsense-master\build\Release\</OutputPath>
+    <PlatformToolset>v142</PlatformToolset>
+    <AssemblyName>Intel.RealSense</AssemblyName>
+    <DebugType>none</DebugType>
+    <DefineConstants>Windows;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS</DefineConstants>
+    <ErrorReport>queue</ErrorReport>
+    <LangVersion>6</LangVersion>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <OutputPath>C:\Users\Stack\Desktop\librealsense-master\build\MinSizeRel\</OutputPath>
+    <PlatformToolset>v142</PlatformToolset>
+    <AssemblyName>Intel.RealSense</AssemblyName>
+    <DebugType>none</DebugType>
+    <DefineConstants>Windows;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS</DefineConstants>
+    <LangVersion>6</LangVersion>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <OutputPath>C:\Users\Stack\Desktop\librealsense-master\build\RelWithDebInfo\</OutputPath>
+    <PlatformToolset>v142</PlatformToolset>
+    <AssemblyName>Intel.RealSense</AssemblyName>
+    <DebugType>full</DebugType>
+    <DefineConstants>Windows;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS</DefineConstants>
+    <LangVersion>6</LangVersion>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.CSharp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.CSharp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemGroup>
+    <None Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\CMakeLists.txt">
+      <Link>CMakeLists.txt</Link>
+    </None>
+  </ItemGroup>
+  <Target Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"
+    Name="CustomCommand_Debug_4d4a115181bfc9a8c68812512c506537"
+    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Base\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Helpers\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Options\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Pipeline\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Sensors\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\StreamProfiles\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Math\CMakeLists.txt"
+    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\Intel.RealSense\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/Intel.RealSense/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+  </Target>
+  <Target Condition="'$(Configuration)|$(Platform)'=='Release|x64'"
+    Name="CustomCommand_Release_4d4a115181bfc9a8c68812512c506537"
+    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Base\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Helpers\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Options\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Pipeline\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Sensors\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\StreamProfiles\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Math\CMakeLists.txt"
+    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\Intel.RealSense\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/Intel.RealSense/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+  </Target>
+  <Target Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"
+    Name="CustomCommand_MinSizeRel_4d4a115181bfc9a8c68812512c506537"
+    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Base\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Helpers\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Options\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Pipeline\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Sensors\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\StreamProfiles\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Math\CMakeLists.txt"
+    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\Intel.RealSense\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/Intel.RealSense/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+  </Target>
+  <Target Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"
+    Name="CustomCommand_RelWithDebInfo_4d4a115181bfc9a8c68812512c506537"
+    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Base\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Helpers\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Options\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Pipeline\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Sensors\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\StreamProfiles\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\CMakeLists.txt;C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Math\CMakeLists.txt"
+    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\Intel.RealSense\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/Intel.RealSense/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/Intel.RealSense/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+  </Target>
+  <ItemGroup>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Context.cs">
+      <Link>Context.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\NativeMethods.cs">
+      <Link>NativeMethods.cs</Link>
+    </Compile>
+    <None Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\.nuget\Intel.RealSense.targets">
+      <Link>.nuget\Intel.RealSense.targets</Link>
+    </None>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\GlobalSuppressions.cs">
+      <Link>GlobalSuppressions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <None Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\packages.config">
+      <Link>packages.config</Link>
+    </None>
+    <AdditionalFiles Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\stylecop.json">
+      <Link>stylecop.json</Link>
+    </AdditionalFiles>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Base\DeleterHandle.cs">
+      <Link>Base\DeleterHandle.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Base\Object.cs">
+      <Link>Base\Object.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Base\PooledObject.cs">
+      <Link>Base\PooledObject.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Base\RefCountedPooledObject.cs">
+      <Link>Base\RefCountedPooledObject.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\AdvancedDevice.cs">
+      <Link>Devices\AdvancedDevice.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\DebugDevice.cs">
+      <Link>Devices\DebugDevice.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\Device.cs">
+      <Link>Devices\Device.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\DeviceList.cs">
+      <Link>Devices\DeviceList.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\PlaybackDevice.cs">
+      <Link>Devices\PlaybackDevice.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\RecordDevice.cs">
+      <Link>Devices\RecordDevice.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\SoftwareDevice.cs">
+      <Link>Devices\SoftwareDevice.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\UpdatableDevice.cs">
+      <Link>Devices\UpdatableDevice.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\UpdateDevice.cs">
+      <Link>Devices\UpdateDevice.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Devices\FirmwareLogsDevice.cs">
+      <Link>Devices\FirmwareLogsDevice.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\DepthFrame.cs">
+      <Link>Frames\DepthFrame.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\Frame.cs">
+      <Link>Frames\Frame.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\FrameQueue.cs">
+      <Link>Frames\FrameQueue.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\FrameSet.cs">
+      <Link>Frames\FrameSet.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\FramesReleaser.cs">
+      <Link>Frames\FramesReleaser.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\Points.cs">
+      <Link>Frames\Points.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\VideoFrame.cs">
+      <Link>Frames\VideoFrame.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\DisparityFrame.cs">
+      <Link>Frames\DisparityFrame.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\MotionFrame.cs">
+      <Link>Frames\MotionFrame.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Frames\PoseFrame.cs">
+      <Link>Frames\PoseFrame.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Pipeline\Config.cs">
+      <Link>Pipeline\Config.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Pipeline\Pipeline.cs">
+      <Link>Pipeline\Pipeline.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Pipeline\PipelineProfile.cs">
+      <Link>Pipeline\PipelineProfile.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\Align.cs">
+      <Link>Processing\Align.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\Colorizer.cs">
+      <Link>Processing\Colorizer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\CustomProcessingBlock.cs">
+      <Link>Processing\CustomProcessingBlock.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\DecimationFilter.cs">
+      <Link>Processing\DecimationFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\DisparityTransform.cs">
+      <Link>Processing\DisparityTransform.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\FrameSource.cs">
+      <Link>Processing\FrameSource.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\HoleFillingFilter.cs">
+      <Link>Processing\HoleFillingFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\PointCloud.cs">
+      <Link>Processing\PointCloud.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\ProcessingBlock.cs">
+      <Link>Processing\ProcessingBlock.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\SpatialFilter.cs">
+      <Link>Processing\SpatialFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\Syncer.cs">
+      <Link>Processing\Syncer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\TemporalFilter.cs">
+      <Link>Processing\TemporalFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\ZeroOrderInvalidationFilter.cs">
+      <Link>Processing\ZeroOrderInvalidationFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\ProcessingBlockList.cs">
+      <Link>Processing\ProcessingBlockList.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\ThresholdFilter.cs">
+      <Link>Processing\ThresholdFilter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\UnitsTransform.cs">
+      <Link>Processing\UnitsTransform.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Processing\DepthHuffmanDecoder.cs">
+      <Link>Processing\DepthHuffmanDecoder.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\StreamProfiles\StreamProfile.cs">
+      <Link>StreamProfiles\StreamProfile.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\StreamProfiles\StreamProfileList.cs">
+      <Link>StreamProfiles\StreamProfileList.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\StreamProfiles\VideoStreamProfile.cs">
+      <Link>StreamProfiles\VideoStreamProfile.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\StreamProfiles\MotionStreamProfile.cs">
+      <Link>StreamProfiles\MotionStreamProfile.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\StreamProfiles\PoseStreamProfile.cs">
+      <Link>StreamProfiles\PoseStreamProfile.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Sensors\Sensor.cs">
+      <Link>Sensors\Sensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Sensors\SensorList.cs">
+      <Link>Sensors\SensorList.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Sensors\SoftwareSensor.cs">
+      <Link>Sensors\SoftwareSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Sensors\PoseSensor.cs">
+      <Link>Sensors\PoseSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Sensors\MaxUsableRangeSensor.cs">
+      <Link>Sensors\MaxUsableRangeSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\Distortion.cs">
+      <Link>Types\Enums\Distortion.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\ExceptionType.cs">
+      <Link>Types\Enums\ExceptionType.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\Extension.cs">
+      <Link>Types\Enums\Extension.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\Format.cs">
+      <Link>Types\Enums\Format.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\FrameMetadataValue.cs">
+      <Link>Types\Enums\FrameMetadataValue.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\LogSeverity.cs">
+      <Link>Types\Enums\LogSeverity.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\Matchers.cs">
+      <Link>Types\Enums\Matchers.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\NotificationCategory.cs">
+      <Link>Types\Enums\NotificationCategory.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\Option.cs">
+      <Link>Types\Enums\Option.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\PlaybackStatus.cs">
+      <Link>Types\Enums\PlaybackStatus.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\RecordingMode.cs">
+      <Link>Types\Enums\RecordingMode.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\Rs400VisualPreset.cs">
+      <Link>Types\Enums\Rs400VisualPreset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\Sr300VisualPreset.cs">
+      <Link>Types\Enums\Sr300VisualPreset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\L500VisualPreset.cs">
+      <Link>Types\Enums\L500VisualPreset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\Stream.cs">
+      <Link>Types\Enums\Stream.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\TimestampDomain.cs">
+      <Link>Types\Enums\TimestampDomain.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Enums\CameraInfo.cs">
+      <Link>Types\Enums\CameraInfo.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Math\Vector.cs">
+      <Link>Types\Math\Vector.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Math\Quaternion.cs">
+      <Link>Types\Math\Quaternion.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Math\Vertex.cs">
+      <Link>Types\Math\Vertex.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Math\TextureCoordinate.cs">
+      <Link>Types\Math\TextureCoordinate.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\AutoExposureROI.cs">
+      <Link>Types\AutoExposureROI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Delegates.cs">
+      <Link>Types\Delegates.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Extrinsics.cs">
+      <Link>Types\Extrinsics.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Intrinsics.cs">
+      <Link>Types\Intrinsics.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\MotionDeviceIntrinsics.cs">
+      <Link>Types\MotionDeviceIntrinsics.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\ROI.cs">
+      <Link>Types\ROI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\SoftwareVideoFrame.cs">
+      <Link>Types\SoftwareVideoFrame.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\SoftwareVideoStream.cs">
+      <Link>Types\SoftwareVideoStream.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\SoftwarePoseStream.cs">
+      <Link>Types\SoftwarePoseStream.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\SoftwarePoseFrame.cs">
+      <Link>Types\SoftwarePoseFrame.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\SoftwareMotionStream.cs">
+      <Link>Types\SoftwareMotionStream.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\SoftwareMotionFrame.cs">
+      <Link>Types\SoftwareMotionFrame.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\Pose.cs">
+      <Link>Types\Pose.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\InfoCollection.cs">
+      <Link>Types\InfoCollection.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\FwLog.cs">
+      <Link>Types\FwLog.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\FwParsedLog.cs">
+      <Link>Types\FwParsedLog.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Types\TerminalParser.cs">
+      <Link>Types\TerminalParser.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Helpers\ErrorMarshaler.cs">
+      <Link>Helpers\ErrorMarshaler.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Helpers\ObjectPool.cs">
+      <Link>Helpers\ObjectPool.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Helpers\Log.cs">
+      <Link>Helpers\Log.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Helpers\ICompositeDisposable.cs">
+      <Link>Helpers\ICompositeDisposable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Options\IOption.cs">
+      <Link>Options\IOption.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Options\IOptions.cs">
+      <Link>Options\IOptions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Options\IOptionsContainer.cs">
+      <Link>Options\IOptionsContainer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Options\OptionsList.cs">
+      <Link>Options\OptionsList.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\Intel.RealSense\Options\OptionInternal.cs">
+      <Link>Options\OptionInternal.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Stack\Desktop\librealsense-master\build\ZERO_CHECK.vcxproj">
+      <Project>{D104EF1B-85AE-30B4-9DA9-57B417620565}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Stack\Desktop\librealsense-master\build\realsense2.vcxproj">
+      <Project>{789EE638-57EA-3108-8E8E-EDC7C9D05F69}</Project>
+      <Name>realsense2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'MinSizeRel'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'RelWithDebInfo'">
+  </PropertyGroup>
+  <PropertyGroup>
+    <BuildDependsOn>
+      CustomCommand_Debug_4d4a115181bfc9a8c68812512c506537;
+      CustomCommand_MinSizeRel_4d4a115181bfc9a8c68812512c506537;
+      CustomCommand_RelWithDebInfo_4d4a115181bfc9a8c68812512c506537;
+      CustomCommand_Release_4d4a115181bfc9a8c68812512c506537;
+      $(BuildDependsOn)
+</BuildDependsOn>
+  </PropertyGroup>
+</Project>
