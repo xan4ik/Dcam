@@ -78,33 +78,21 @@
       <Link>CMakeLists.txt</Link>
     </None>
   </ItemGroup>
-  <Target Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"
-    Name="CustomCommand_Debug_0c0bfff0d2185e7ee918158c89051112"
-    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt"
-    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-2-capture\CMakeFiles\generate.stamp">
+  <Target Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Name="CustomCommand_Debug_0c0bfff0d2185e7ee918158c89051112" Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt" Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-2-capture\CMakeFiles\generate.stamp">
     <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt" />
-    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-2-capture/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+    <Exec Command="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-2-capture/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" />
   </Target>
-  <Target Condition="'$(Configuration)|$(Platform)'=='Release|x64'"
-    Name="CustomCommand_Release_0c0bfff0d2185e7ee918158c89051112"
-    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt"
-    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-2-capture\CMakeFiles\generate.stamp">
+  <Target Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Name="CustomCommand_Release_0c0bfff0d2185e7ee918158c89051112" Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt" Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-2-capture\CMakeFiles\generate.stamp">
     <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt" />
-    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-2-capture/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+    <Exec Command="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-2-capture/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" />
   </Target>
-  <Target Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"
-    Name="CustomCommand_MinSizeRel_0c0bfff0d2185e7ee918158c89051112"
-    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt"
-    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-2-capture\CMakeFiles\generate.stamp">
+  <Target Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Name="CustomCommand_MinSizeRel_0c0bfff0d2185e7ee918158c89051112" Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt" Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-2-capture\CMakeFiles\generate.stamp">
     <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt" />
-    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-2-capture/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+    <Exec Command="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-2-capture/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" />
   </Target>
-  <Target Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"
-    Name="CustomCommand_RelWithDebInfo_0c0bfff0d2185e7ee918158c89051112"
-    Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt"
-    Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-2-capture\CMakeFiles\generate.stamp">
+  <Target Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Name="CustomCommand_RelWithDebInfo_0c0bfff0d2185e7ee918158c89051112" Inputs="C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt" Outputs="C:\Users\Stack\Desktop\librealsense-master\build\wrappers\csharp\cs-tutorial-2-capture\CMakeFiles\generate.stamp">
     <Exec Command="echo Building Custom Rule C:/Users/Stack/Desktop/librealsense-master/wrappers/csharp/cs-tutorial-2-capture/CMakeLists.txt" />
-    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-2-capture/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+    <Exec Command="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/Stack/Desktop/librealsense-master -BC:/Users/Stack/Desktop/librealsense-master/build --check-stamp-file C:/Users/Stack/Desktop/librealsense-master/build/wrappers/csharp/cs-tutorial-2-capture/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" />
   </Target>
   <ItemGroup>
     <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\cs-tutorial-2-capture\Program.cs">
@@ -157,6 +145,9 @@
       <Name>Intel.RealSense</Name>
       <SkipGetTargetFrameworkProperties>true</SkipGetTargetFrameworkProperties>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Determinanters\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ImportGroup Label="ExtensionTargets">
