@@ -104,6 +104,13 @@
     <Compile Include="C:\Users\Stack\Desktop\librealsense-master\wrappers\csharp\cs-tutorial-2-capture\Properties\AssemblyInfo.cs">
       <Link>Properties\AssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Determinanters\Exceptions\ApplyFilterException.cs" />
+    <Compile Include="Determinanters\BaseDeterminant.cs" />
+    <Compile Include="Determinanters\ConcreteDeterminanters\DistanceDeterminant .cs" />
+    <Compile Include="Determinanters\ConcreteDeterminanters\CoordinatesDeterminant.cs" />
+    <Compile Include="Determinanters\ISelectFilter.cs" />
+    <Compile Include="Determinanters\Exceptions\OutOfBoundsException.cs" />
+    <Compile Include="Determinanters\SelectArea.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System">
@@ -146,9 +153,7 @@
       <SkipGetTargetFrameworkProperties>true</SkipGetTargetFrameworkProperties>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Determinanters\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
